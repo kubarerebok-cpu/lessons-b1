@@ -64,7 +64,7 @@ else if(age > 50 && age <=70)
     alert("салам  ата")
 if (age > 70 && age <=100)
     alert("салам чон ата")
-else if(age > 100 && age <=120)
+else if(age > 100 && age <=1)
     alert("салам чоон ата")
 
 
