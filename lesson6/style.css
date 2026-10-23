@@ -1,0 +1,61 @@
+body{
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, black, darkred );
+
+}
+
+.timer{
+    width: 300px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(10, 202, 209);
+    box-shadow: 0 0 5px aqua,  0 0 15px aqua, 0 0 30px aqua ;
+    background-color: black;
+    border-radius: 15px;
+    
+}
+.tim{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#display{
+    width: 100px;
+    color: white;
+    box-shadow: 0 0 5px white , 0 0 15px white;
+    font-size: 43px;
+    border-radius: 15px;
+}
+#start-btn{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 5px red, 0 0 15px red;
+    font-size: 30px;
+    background: linear-gradient(to right, darkred, darkblue );
+    border-radius: 12px;
+
+}
+#pause-btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 5px blue, 0 0 15px yellow;
+    font-size: 30px;
+    background: linear-gradient(to right, red, darkgreen );
+    border-radius: 12px;
+}
+#reset-btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     box-shadow: 0 0 5px red, 0 0 15px red;
+    font-size: 30px;
+    background: linear-gradient(to right, darkred, darkblue );
+    border-radius: 12px;
+}

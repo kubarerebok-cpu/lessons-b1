@@ -23,9 +23,9 @@
 
 
 
-// document.cookie = "username=Kuba; max-age=3600";
-// console.log(document.cookie);
- // Cookie сактоо
+document.cookie = "username=Kuba; max-age=3600";
+console.log(document.cookie);
+ Cookie сактоо
         function saveCookie() {
             let name = document.getElementById("name").value;
 

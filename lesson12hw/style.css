@@ -1,0 +1,114 @@
+
+aside {
+  color: #d2b574;
+  font-size: 30px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart {
+  width: 230px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.cart img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.cart h3 {
+  margin: 0;
+  color: #c9a24d;
+  font-weight: 400;
+}
+
+.cart p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.cart button {
+  padding: 10px 28px;
+  background: #c9a24d;
+  color: #fff;
+  border: none;
+}
+
+.cart:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.cart {
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+}
+
+.cart img {
+  width: 100%;
+}
+.too1{
+  display: flex;
+  justify-content: space-between;
+}
+.tooich{
+    width: 230px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+}
+.tooich img{
+     
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.tooich h3 {
+  margin: 0;
+  color: #c9a24d;
+  font-weight: 400;
+}
+.tooich p {
+  margin: 0;
+  font-size: 14px;
+}
+.mmm0{
+   display: flex;
+  justify-content: space-between;
+}
+.mmm0-{
+   width: 230px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+}
+.mmm0- img{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.mmm0- h3{
+   
+  margin: 0;
+  color: #c9a24d;
+  font-weight: 400;
+}
+.mmm0- p{
+   margin: 0;
+  font-size: 14px;
+}
